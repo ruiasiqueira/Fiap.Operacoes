@@ -30,8 +30,15 @@ namespace Fiap.Operacoes
             Console.WriteLine($"Soma: {soma}");
             Console.WriteLine($"Sub: {sub}");
             Console.WriteLine($"Multi: {mult}");
-            Console.WriteLine($"Modulo: {modulo}");
+            Console.WriteLine($"Modulo:(Resto da divisão) {modulo}");
 
+            //Operações Relacionais
+
+            Console.WriteLine("\n Comparação entre os números");
+            Console.WriteLine($"Os números são iguais?{num1 == num2}");
+            Console.WriteLine($"Os números são diferentes?{num1 != num2}");
+            Console.WriteLine($"O primeiro número é maior?{num1 > num2}");
+            Console.WriteLine($"O primeiro número é menor?{num1 < num2}");
             Console.ReadKey();
 
         }
